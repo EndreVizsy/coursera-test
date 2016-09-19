@@ -1,0 +1,87 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: lightgray;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/* NAVBAR */
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+
+}
+
+#header-nav {
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #a9a9a9;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0; 
+  line-height: .75;
+}
+
+#collapsable-nav {
+  margin: 50px auto 10px;
+  background-color: #cbcbcb;
+
+}
+
+#collapsable-nav ul li:hover{
+  background-color: #d9d9d9;
+  border: 1px solid #000;
+}
+
+#nav-list {
+  text-align: center;
+}
+/* END OF NAVBAR */
+
+/* MAIN CONTENT */
+
+
+.page-header {
+  text-align: center;
+  font-size: 1.6em;
+  border-bottom: none;
+  margin-bottom: 20px;
+}
+
+#main-content {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  padding: 0;
+}
+
+.container .col-xs-12 {
+  background-color: darkgrey;
+  border-radius: 10px;  
+}
+
+.container .col-xs-12 .main-description-title {
+  text-align: center;
+  font-size: 1.5em;
+  font-style: bold;
+}
+
+.container .col-xs-12 .main-description {
+  height: 1300px;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+/* END OF MAIN CONTENT */
